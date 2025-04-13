@@ -1,15 +1,13 @@
 # rembg_flask_api
 
-## Description
+✨ **rembg_flask_api** is a simple Python program that creates a Flask web application. It allows users to upload an image and remove its background using the `rembg` library. The project is designed to be easy to use and integrate into other applications.
 
-`rembg_flask_api` is a simple Python program that creates a Flask web application. It allows users to upload an image and remove its background using the `rembg` library. The project is designed to be easy to use and integrate into other applications.
-
-## Features
+🚀 **Features**
 - **Image Background Removal**: Utilizes the `rembg` library to efficiently remove backgrounds from images.
 - **Flask Web API**: Exposes a RESTful API for processing image uploads.
 - **User-Friendly Interface**: Provides clear instructions and examples for setting up and using the project.
 
-## 🛠️ Installation
+🛠️ **Installation**
 
 To install the required dependencies, run the following command:
 
@@ -17,7 +15,7 @@ To install the required dependencies, run the following command:
 pip install Flask rembg
 ```
 
-## 💻 Usage
+📦 **Usage**
 
 ### Basic Usage
 
@@ -57,11 +55,11 @@ else:
     print("Failed to process image")
 ```
 
-## 🎨 Configuration
+🔧 **Configuration**
 
 The project does not require any configuration settings or environment variables.
 
-## 🧪 Tests
+🧪 **Tests**
 
 To run tests, you can use the following command:
 
@@ -71,7 +69,7 @@ python request.py --api-test-count=10
 
 This will send 10 POST requests to the API and measure the response time.
 
-## 📁 Project Structure
+📁 **Project Structure**
 
 ```
 rembg_flask_api/
@@ -80,10 +78,10 @@ rembg_flask_api/
 └── request.py      # Script for testing the API
 ```
 
-## 👥 Contributing
+🙌 **Contributing**
 
 Contributions are welcome! Please read our [CONTRIBUTING.md](https://github.com/gag3301v/rembg_flask_api/blob/master/CONTRIBUTING.md) for more details on how to contribute.
 
-## 📄 License
+📄 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/gag3301v/rembg_flask_api/blob/master/LICENSE) file for details.
